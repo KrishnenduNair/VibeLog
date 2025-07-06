@@ -1,0 +1,94 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f8fbff, #eef2f3);
+  color: #333;
+}
+
+.App {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 2rem;
+  background: #ffffffcc;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2d2d2d;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+select {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: #5e81f4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-bottom: 2rem;
+}
+
+button:hover {
+  background-color: #4a6fe0;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border-left: 4px solid #5e81f4;
+  background: #f6f9fc;
+  border-radius: 8px;
+}
+
+li a {
+  text-decoration: none;
+  color: #2e5be4;
+  font-weight: 500;
+}
+
+li strong {
+  display: block;
+  color: #222;
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
